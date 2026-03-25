@@ -1,0 +1,33 @@
+{
+  "training": {
+    "average_error": 35.0765,
+    "root_average_squared_error": 5.9225,
+    "mean_absolute_error": 3.3180,
+    "root_mean_square_error": 1.8215,
+    "mean_squared_error": 0.0034,
+    "root_mean_squared_error": 0.0580,
+    "r_square": 0.9937,
+    "n_observations": 23649
+  },
+  "validation": {
+    "average_error": 47.3139,
+    "root_average_squared_error": 6.8785,
+    "mean_absolute_error": 3.7968,
+    "root_mean_square_error": 1.9485,
+    "mean_squared_error": 0.0042,
+    "root_mean_squared_error": 0.0648,
+    "r_square": 0.9912,
+    "n_observations": 11824
+  },
+  "test": {
+    "average_error": 52.0618,
+    "root_average_squared_error": 7.2154,
+    "mean_absolute_error": 4.0238,
+    "root_mean_square_error": 2.0059,
+    "mean_squared_error": 0.0049,
+    "root_mean_squared_error": 0.0700,
+    "r_square": 0.9907,
+    "n_observations": 3941
+  }
+}
+

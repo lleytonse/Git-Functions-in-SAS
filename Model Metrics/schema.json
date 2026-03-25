@@ -1,0 +1,15 @@
+{
+  "target": {
+    "name": "RUL",
+    "level": "interval",
+    "type": "numeric"
+  },
+  "predictors": {
+    "Differential_pressure": "interval",
+    "Flow_rate": "interval",
+    "Time": "interval",
+    "Dust_feed": "nominal",
+    "Dust": "nominal"
+  },
+  "id": "Data_No"
+}

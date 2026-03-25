@@ -1,0 +1,22 @@
+{
+  "Dust_feed": {
+    "importance": 1946055,
+    "relative_importance": 1.0000
+  },
+  "Differential_pressure": {
+    "importance": 1447021,
+    "relative_importance": 0.7436
+  },
+  "Time": {
+    "importance": 53641,
+    "relative_importance": 0.0276
+  },
+  "Dust": {
+    "importance": 50212,
+    "relative_importance": 0.0258
+  },
+  "Flow_rate": {
+    "importance": 35143,
+    "relative_importance": 0.0181
+  }
+}

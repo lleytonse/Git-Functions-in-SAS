@@ -1,0 +1,24 @@
+{
+  "model_type": "GRADBOOST",
+  "ntrees": 500,
+  "actual_trees": 266,
+  "learning_rate": 0.04169028,
+  "subsampling_rate": 0.58546894,
+  "num_variables_per_split": 5,
+  "num_bins": 73,
+  "max_depth": 8,
+  "min_depth": 8,
+  "min_leaf_size": 5,
+  "max_leaf_size": 9078,
+  "max_branches": 2,
+  "min_branches": 2,
+  "lasso_penalty": 0.66167715,
+  "ridge_penalty": 2.63064556,
+  "seed": 12345,
+  "early_stopping": {
+    "stagnation": 4,
+    "tolerance": 0,
+    "threshold": 0,
+    "iterations": 0
+  }
+}
