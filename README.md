@@ -1,4 +1,4 @@
-# GitFunctions
+# Automating Git Workflows in SAS with Git Functions
 ## Overview
 
 A practical starter repository that explores a lightweight model governance/versioning workflow using Git Functions. 
@@ -10,6 +10,7 @@ An active SAS 9 / SAS Viya license and environment
 ### Installation
 
 Start your SAS®9 or SAS® Viya® instance and clone the repository into the root of your workspace:
+
 `git clone https://github.com/lleytonse/Git-Functions-in-SAS.git`
 
 *Please note: if using SAS®9 the modeling sections will need modifications to the code, but the Git Functions will still work*
