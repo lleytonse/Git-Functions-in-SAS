@@ -7,7 +7,7 @@ libname repo clear;
 /* Fetch latest code from repo */
 data _null_;
  rc = git_clone(
-   "https://github.com/lleytonse/Git-Functions-in-SAS.git",
+   "https://github.com/ollama/ollama.git",
    "&repoPath.");
  put rc=;
 run;
@@ -37,6 +37,13 @@ data commit_history;
 
     output;
   end;
+run;
+
+data commit_history;
+  set commit_history;
+  length contributor $200;
+  if not missing(author) then contributor = strip(author);
+  else contributor = "UNKNOWN";
 run;
 
 /* Summarize commit counts and contribution percentage */
